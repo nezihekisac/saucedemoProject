@@ -1,0 +1,1504 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:04:57.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2855000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": ";login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 340000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters valid credentials for each \"standarduser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standarduser\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserEntersValidCredentialsForEach(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks login button",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserClicksLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should be able to login successfully and page subtitle should be \"PRODUCTS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PRODUCTS\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserShouldBeAbleToLoginSuccessfullyAndPageSubtitleShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 335000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:03.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1868000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": ";login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters valid credentials for each \"performanceglitchuser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performanceglitchuser\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserEntersValidCredentialsForEach(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5126000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks login button",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserClicksLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1023000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should be able to login successfully and page subtitle should be \"PRODUCTS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PRODUCTS\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserShouldBeAbleToLoginSuccessfullyAndPageSubtitleShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:12.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1740000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": ";login-with-valid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters valid credentials for each \"problemuser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problemuser\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserEntersValidCredentialsForEach(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks login button",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserClicksLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should be able to login successfully and page subtitle should be \"PRODUCTS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PRODUCTS\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserShouldBeAbleToLoginSuccessfullyAndPageSubtitleShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 291000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:15.649Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1829000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login with locked out user credentials",
+        "description": "",
+        "id": ";login-with-locked-out-user-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 352000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user enters with valid credentials \"lockedOut\" and \"passWord\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lockedOut\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"passWord\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserEntersWithValidCredentialsAndAndClicksLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1059000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theErrorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:19.312Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1725000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"standard_user\" and \"wrong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"wrong\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:21.907Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1687000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 301000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"jjdh\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jjdh\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 322000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:24.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"john\" and \"@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"@\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 448000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:27.023Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"standard_user\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:29.651Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1762000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 294000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:32.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1686000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 330000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:34.631Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1755000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"problem_user\" and \"wrong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"wrong\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 307000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:37.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1721000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \".\" and \".\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\".\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\".\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:39.696Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1744000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 307000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"problem_user\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:42.228Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1714000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"performance_glitch_user\" and \"wrong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"wrong\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T19:05:44.791Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1731000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": ";login-with-invalid-credentials;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 321000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user logs in using following credentials \"performance_glitch_user\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.theUserLogsInUsingFollowingCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "com.saucedemo.stepDefinitions.MyStepdefs.errorMessageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test3"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
